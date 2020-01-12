@@ -1,0 +1,44 @@
+@charset "utf-8";
+body{
+    background-color: rgb(224, 134, 187);
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div#edita {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+}
+div#edita h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.527);
+}
+div#edita header{
+    border-bottom: 1px solid gray;
+}
+div#edita input{
+    display: block;
+    margin: 5px;
+    width: 220px;
+    height: 30px;
+    position: relative;
+    top: 25px;
+    left: 25%;
+}
+div#edita input[value="EDITAR"]{
+    width: 80px;
+    left: 38%;
+}
+div#edita input[value="VOLTAR AO MENU"]{
+    width: 130px;
+    top: 150px;
+    left: 35%;
+}
+div#result1 {
+    text-align: center;
+}
+div#result2 {
+    text-align: center;
+}

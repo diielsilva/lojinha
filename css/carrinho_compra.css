@@ -1,0 +1,25 @@
+@charset "utf-8";
+body{
+    background-color: rgb(224, 134, 187);
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+div#valor-final {
+    text-align: center;
+}
+div#total {
+    text-align: center;
+}
+table{
+    position: relative;
+    left: 35%;
+}

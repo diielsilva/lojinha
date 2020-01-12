@@ -1,0 +1,43 @@
+@charset "utf-8";
+body{
+    background-color: rgb(224, 134, 187);
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div#pesquisa {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+}
+div#pesquisa h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
+}
+div#pesquisa header{
+    border-bottom: 1px solid gray;
+}
+div#pesquisa input {
+    display: block;
+    position: relative;
+    width: 250px;
+    height: 30px;
+    top: 25px;
+    left: 25%;
+    margin: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.575);
+}
+div#pesquisa input[value="PESQUISAR"]{
+    width: 100px;
+    top: 30px;
+    left: 38%;
+}
+div#pesquisa input[value="VOLTAR AO MENU"]{
+    width: 130px;
+    top: 200px;
+    left: 35%;
+}
+div#result {
+    text-align: center;
+}

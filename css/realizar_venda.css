@@ -1,0 +1,49 @@
+@charset "utf-8";
+body{
+    background-color: rgb(224, 134, 187);
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div#venda {
+    width: 550px;
+    height: 720px;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+}
+div#venda input{
+    display: block;
+    width: 280px;
+    height: 30px;
+    position: relative;
+    left: 25%;
+    margin: 3px;
+}
+div#venda h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
+}
+div#venda h3{
+    text-align: center;
+}
+div#venda header{
+    border-bottom: 1px solid gray;
+}
+div#venda select {
+    position: relative;
+    left: 140px;
+    height: 30px;
+    width: 280px;
+}
+div#erro-add{
+    text-align: center;
+}
+div#prod-add{
+    text-align: center;
+}
+div#erro-desconto {
+    text-align: center;
+}
+div#conc-desc{
+    text-align: center;
+}

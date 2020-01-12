@@ -1,0 +1,27 @@
+@charset "utf-8";
+body{
+    background-color: rgb(224, 134, 187);
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div#concluida {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+}
+div#concluida h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.548);
+}
+div#concluida header{
+    border-bottom: 1px solid gray;
+}
+div#concluida button{
+    height: 30px;
+    position: relative;
+    top: 200px;
+    left: 35%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.548);
+}

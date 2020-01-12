@@ -1,0 +1,43 @@
+@charset "utf-8";
+body{
+    background-color: rgb(224, 134, 187);
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div#remover {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+}
+div#remover h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.555);
+}
+div#remover header{
+    border-bottom: 1px solid gray;
+}
+div#remover input{
+    display: block;
+    margin: 5px;
+    width: 250px;
+    height: 30px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
+    position: relative;
+    left: 25%;
+}
+div#remover input[value="REMOVER"]{
+    position: relative;
+    top: 20px;
+    width: 90px;
+    left: 40%;
+}
+div#remover input[value="VOLTAR AO MENU"]{
+    width: 130px;
+    top: 150px;
+    left: 35%;
+}
+div#result {
+    text-align: center;
+}
